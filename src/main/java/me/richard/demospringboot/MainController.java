@@ -15,9 +15,9 @@ public class MainController {
     {
         String userName = "fellow Human";
         System.out.println ("Hello," + userName);
-        //Scanner keyboard = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter a value then go to localhost:8080");
-        //userName = keyboard.nextLine();
+        userName = keyboard.nextLine();
         String greet = "Hello" + userName;
         System.out.println("greet");
 
