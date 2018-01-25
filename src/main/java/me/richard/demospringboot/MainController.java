@@ -13,15 +13,18 @@ public class MainController {
     @RequestMapping("/")
     public String showIndex()
     {
-        String userName = "fellow Human";
+        /*String userName = "fellow Human";
         System.out.println ("Hello," + userName);
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter a value then go to localhost:8080");
         userName = keyboard.nextLine();
         String greet = "Hello" + userName;
-        System.out.println("greet");
+        System.out.println("greet"); */
+        String greet = "abc";
+        GradingProject gradingProject = new GradingProject();
+        return gradingProject.showIndex();
 
-        return greet;
+        //return greet;
     }
 
 
